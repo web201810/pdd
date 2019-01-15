@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;  
+}
+body{background-color: #f3f3f3}
+.content{border-bottom: 3px solid #f00; 
+     background-color: #fff;
+     position: fixed;
+     top:0px;
+     width: 100%;
+     z-index: 200;
+    }
+.m-t{
+    width:1200px;
+    margin:86px auto 0;
+  
+    position: relative;
+    z-index: 100;
+}
+.m-t a img{width:100%}
+a{text-decoration:none;}
+li{list-style: none}
+div.top{
+    width:1200px;
+    margin:9px auto;
+   display: flex;
+   justify-content: space-between;
+   border: none;  
+}
+.u{
+    display: flex;
+   justify-content: space-between;
+   vertical-align: center; 
+}
+.t-r{ line-height: 40px;}
+.u>li{padding:6px}
+.u>li>a{color:#6c6c6c;font-size: 18px}
+  .poster{
+      width:1200px;
+      margin: 10px auto;
+      display: flex;
+      justify-content: space-between;
+  }
+  .poster-l{
+    width:700px;
+    height:396px;
+    background:url(../img/agriculture-hbyl-l.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.poster-l>div{
+    width:700px;
+    height:70px;
+    background-color:rgba(0,0,0,.5);
+    position: absolute;
+    bottom:0;
+    line-height:72px;
+    font-size:25px;
+    color:#fff;
+    padding-left:20px;
+    box-sizing: border-box;
+}
+.mask{
+    width:170px;
+    height:125px; 
+    background:#fff; 
+}
+.mask-title{
+   color:#949494;
+    font-size:15px; 
+    margin-bottom:18px;
+}
+.mask-title>img{
+    width:170px;
+    height:95px;
+}
+.mask-p{
+   padding-left:5px;
+}
+.mask-p0{
+    color:#fff;
+    background-color: rgba(0,0,0,.5);
+}
+.poster-r{
+    width:300px;
+    height:396px;
+    background: #fff;
+}
+.poster-t{
+    background-color: #fc475d;
+    color:#fff;
+    font-size:25px;
+    line-height:50px;
+    padding-left:5px;
+}
+
+.poster-t li{
+   text-align: center;
+  
+}
+.post-t{
+    width:260px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding:15px 20px;
+    color:#686868;
+}
+.post-t:hover{
+    color:#000;
+    font-weight:bold;
+}
+
+
+.body{
+    width:1200px;
+    margin:0 auto;
+    padding:50px 0; 
+}
+.goods-ul{
+    padding:20px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.goods{
+    width:285px;
+    height:418px;
+    margin:15px 0;
+    text-align: center;
+    background:#fff;
+}
+.goods-img{
+    width:285px;
+    height:285px;
+}
+.goods>p.title{
+    color:#636363;
+    font-size: 18px;
+    padding:10px 0;
+}
+.goods>p.price{
+     color: #fc475d;
+     font-size:36px;
+}
